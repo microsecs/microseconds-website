@@ -19,3 +19,10 @@ button,
 a {
   transition: 160ms ease;
 }
+
+/* Hide shared site chrome on the temporary construction homepage only.
+   All other routes keep their existing navigation and footer. */
+body:has(main[data-construction-home]) > header,
+body:has(main[data-construction-home]) > footer {
+  display: none;
+}

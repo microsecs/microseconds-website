@@ -7,7 +7,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-[65vh] items-center justify-center overflow-hidden px-5 py-16 sm:py-24">
+    <main data-construction-home className="relative flex min-h-screen items-center justify-center overflow-hidden px-5 py-16 sm:py-24">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(34,211,238,0.10),transparent_48%)]" />
       <section className="relative mx-auto w-full max-w-2xl rounded-2xl border border-white/10 bg-slate-900/60 px-6 py-12 text-center shadow-2xl sm:px-12 sm:py-16">
         <div className="mx-auto mb-6 flex items-center justify-center gap-3">
